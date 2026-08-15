@@ -1,0 +1,119 @@
+[
+  {
+    "id": "meta-ads",
+    "icon": "◎",
+    "name": "Meta Ads",
+    "short": "Facebook & Instagram advertising",
+    "description": "Campaign strategy, creative direction, targeting, testing and optimization for Meta platforms.",
+    "deliverables": [
+      "Campaign strategy",
+      "Audience & funnel planning",
+      "Creative testing plan",
+      "Optimization roadmap"
+    ]
+  },
+  {
+    "id": "google-ads",
+    "icon": "⌕",
+    "name": "Google Ads",
+    "short": "Search & performance advertising",
+    "description": "High-intent advertising designed to connect your offer with people actively searching for solutions.",
+    "deliverables": [
+      "Keyword strategy",
+      "Campaign architecture",
+      "Ad copy direction",
+      "Conversion tracking plan"
+    ]
+  },
+  {
+    "id": "social",
+    "icon": "✦",
+    "name": "Social Media Marketing",
+    "short": "Strategy, content & growth",
+    "description": "A consistent social presence built around your audience, offer and business goals.",
+    "deliverables": [
+      "Content pillars",
+      "Campaign calendar",
+      "Creative direction",
+      "Performance review"
+    ]
+  },
+  {
+    "id": "lead-gen",
+    "icon": "↗",
+    "name": "Lead Generation",
+    "short": "Turn attention into qualified leads",
+    "description": "Funnels and campaigns designed to capture demand and move prospects toward a conversation.",
+    "deliverables": [
+      "Lead funnel plan",
+      "Landing-page direction",
+      "Lead form strategy",
+      "Follow-up workflow"
+    ]
+  },
+  {
+    "id": "performance",
+    "icon": "◈",
+    "name": "Performance Marketing",
+    "short": "Measure, learn, improve",
+    "description": "A data-led approach that connects campaign activity to meaningful business outcomes.",
+    "deliverables": [
+      "KPI framework",
+      "Experiment roadmap",
+      "Optimization cycles",
+      "Reporting structure"
+    ]
+  },
+  {
+    "id": "creative",
+    "icon": "✎",
+    "name": "Creative & Ad Design",
+    "short": "Campaign-ready visual direction",
+    "description": "Clear, scroll-stopping concepts and visual systems designed for digital advertising.",
+    "deliverables": [
+      "Creative concepts",
+      "Ad variations",
+      "Visual direction",
+      "Testing matrix"
+    ]
+  },
+  {
+    "id": "remarketing",
+    "icon": "↻",
+    "name": "Remarketing",
+    "short": "Reconnect with warm audiences",
+    "description": "Retargeting strategy for visitors and engaged audiences who are not ready on the first touch.",
+    "deliverables": [
+      "Audience segmentation",
+      "Retargeting map",
+      "Offer sequencing",
+      "Frequency planning"
+    ]
+  },
+  {
+    "id": "strategy",
+    "icon": "⌁",
+    "name": "Marketing Strategy",
+    "short": "The plan behind the campaigns",
+    "description": "A practical growth plan aligned to your business, market, audience and available budget.",
+    "deliverables": [
+      "Market positioning",
+      "Channel plan",
+      "Offer direction",
+      "90-day roadmap"
+    ]
+  },
+  {
+    "id": "analytics",
+    "icon": "⊙",
+    "name": "Tracking & Analytics",
+    "short": "Know what is working",
+    "description": "Measurement foundations for campaign decisions, reporting and continuous improvement.",
+    "deliverables": [
+      "Event map",
+      "KPI dashboard plan",
+      "Attribution checklist",
+      "Reporting workflow"
+    ]
+  }
+]

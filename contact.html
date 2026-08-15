@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — KaiumMarketing</title>
+<meta name="description" content="Book a free strategy call with KaiumMarketing. Tell us about your business and growth goals.">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="KaiumMarketing"></a>
+  <nav class="desktop-nav">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html">Work</a>
+    <a href="index.html#process">Process</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+  </nav>
+  <div class="header-actions">
+    <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">◐</button>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#services">Services</a>
+  <a href="portfolio.html">Work</a>
+  <a href="index.html#process">Process</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Insights</a>
+  <a href="contact.html">Contact</a>
+</div>
+<main>
+<section class="section-shell page-hero">
+  <div class="eyebrow reveal-up"><span>✦</span> LET'S TALK</div>
+  <h1 class="reveal-up" style="animation-delay:.08s">Book your free<br><span>strategy call.</span></h1>
+  <p class="reveal-up" style="animation-delay:.16s">30 minutes. No pitch. Just an honest look at your marketing, your goals, and what it would take to get there.</p>
+</section>
+
+<section class="section-shell section">
+  <div class="brief">
+    <!-- SIDEBAR -->
+    <div class="contact-sidebar reveal-up">
+      <div class="contact-info-card">
+        <h3>What to expect</h3>
+        <div class="contact-steps">
+          <div class="contact-step"><span class="step-num">01</span><div><strong>Audit</strong><p>We'll review your current campaigns, tracking setup and creative.</p></div></div>
+          <div class="contact-step"><span class="step-num">02</span><div><strong>Opportunity map</strong><p>We identify the 2–3 highest-leverage changes for your specific situation.</p></div></div>
+          <div class="contact-step"><span class="step-num">03</span><div><strong>Clear next step</strong><p>You leave with a clear path forward — whether we work together or not.</p></div></div>
+        </div>
+      </div>
+      <div class="contact-info-card" style="margin-top:16px">
+        <h3>Direct contact</h3>
+        <a href="mailto:wafikaium@gmail.com" class="contact-link">
+          <span>✉</span> wafikaium@gmail.com
+        </a>
+        <p style="font-size:13px;margin-top:10px">Usually responds within 24 hours on business days.</p>
+      </div>
+      <div class="contact-trust reveal-up" style="animation-delay:.2s">
+        <div class="trust-item"><span>🔒</span> No commitment required</div>
+        <div class="trust-item"><span>⚡</span> Response within 24h</div>
+        <div class="trust-item"><span>🎯</span> 100% tailored advice</div>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-card reveal-up" style="animation-delay:.1s">
+      <h2 style="margin:0 0 6px;font-size:24px">Tell us about your business</h2>
+      <p style="margin:0 0 26px;font-size:14px">Fill in the brief below and we'll reach out to schedule your call.</p>
+      <form id="leadForm" novalidate>
+        <div class="field">
+          <label for="name">Your Name *</label>
+          <input id="name" name="name" type="text" placeholder="Rina Akter" required>
+        </div>
+        <div class="field">
+          <label for="email">Email Address *</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required>
+        </div>
+        <div class="field">
+          <label for="whatsapp">WhatsApp Number *</label>
+          <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+880 1XXXXXXXXX" required>
+        </div>
+        <div class="field">
+          <label for="business">Business / Brand Name</label>
+          <input id="business" name="business" type="text" placeholder="Your company name">
+        </div>
+        <div class="field">
+          <label for="service">What do you need help with? *</label>
+          <select id="service" name="service" required>
+            <option value="">— Select a service —</option>
+            <option>Meta Ads (Facebook &amp; Instagram)</option>
+            <option>Google Ads (Search &amp; Display)</option>
+            <option>Lead Generation</option>
+            <option>Social Media Marketing</option>
+            <option>Performance Marketing Strategy</option>
+            <option>Creative &amp; Ad Design</option>
+            <option>Full Marketing System</option>
+            <option>Not sure — I need advice</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="budget">Monthly Marketing Budget</label>
+          <select id="budget" name="budget">
+            <option value="">— Select range —</option>
+            <option>Under ৳50,000/mo</option>
+            <option>৳50,000 – ৳2L/mo</option>
+            <option>৳2L – ৳5L/mo</option>
+            <option>৳5L+/mo</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="teamMembers">How many members are on your team?</label>
+          <select id="teamMembers" name="teamMembers" required>
+            <option value="">— Select team size —</option>
+            <option>1–10 members</option>
+            <option>11–50 members</option>
+            <option>51–100 members</option>
+            <option>101–500 members</option>
+            <option>500+ members</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="goal">What's your main growth goal?</label>
+          <textarea id="goal" name="goal" placeholder="e.g. I want to generate 50 qualified leads per month at under ৳500 CPL for my SaaS product..."></textarea>
+        </div>
+        <button class="btn btn-glow" type="submit" style="width:100%;justify-content:center">Send My Brief ↗</button>
+        <p class="note" style="margin-top:12px;text-align:center">No commitment. We'll respond within 24 hours.</p>
+      </form>
+      <div id="formStatus" style="margin-top:18px;font-weight:600;font-size:15px"></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div>
+    <img src="assets/logo.svg" alt="KaiumMarketing">
+    <p>Performance-focused online marketing &amp; advertising.</p>
+  </div>
+  <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div>
+    <a href="mailto:wafikaium@gmail.com">wafikaium@gmail.com</a>
+    <small>© 2026 KaiumMarketing</small>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+<style>
+.contact-sidebar { display:flex; flex-direction:column; }
+.contact-info-card { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:26px; }
+.contact-info-card h3 { font-size:17px; margin:0 0 18px; }
+.contact-steps { display:grid; gap:18px; }
+.contact-step { display:flex; gap:14px; align-items:flex-start; }
+.step-num { background:linear-gradient(135deg,var(--violet),var(--blue)); -webkit-background-clip:text; background-clip:text; color:transparent; font-family:Manrope,sans-serif; font-size:20px; font-weight:900; flex-shrink:0; line-height:1.2; }
+.contact-step strong { display:block; font-size:14px; margin-bottom:3px; }
+.contact-step p { margin:0; font-size:13px; line-height:1.6; }
+.contact-link { display:flex; align-items:center; gap:10px; color:var(--violet); font-weight:600; font-size:15px; margin-top:4px; }
+.contact-link:hover { color:#a78bfa; }
+.contact-trust { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:20px 24px; margin-top:16px; display:grid; gap:12px; }
+.trust-item { display:flex; align-items:center; gap:10px; font-size:13.5px; font-weight:500; }
+.trust-item span { font-size:18px; }
+</style>
+</body>
+</html>

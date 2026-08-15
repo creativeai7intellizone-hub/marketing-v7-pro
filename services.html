@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Services — KaiumMarketing</title>
+<meta name="description" content="Performance marketing services: Meta Ads, Google Ads, Lead Generation, Social Media, Creative and Strategy.">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="KaiumMarketing"></a>
+  <nav class="desktop-nav">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html">Work</a>
+    <a href="index.html#process">Process</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+  </nav>
+  <div class="header-actions">
+    <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">◐</button>
+    <a class="btn btn-sm" href="contact.html">Get Strategy Call</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#services">Services</a>
+  <a href="portfolio.html">Work</a>
+  <a href="index.html#process">Process</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Insights</a>
+  <a href="contact.html">Contact</a>
+</div>
+<main>
+
+<section class="section-shell page-hero">
+  <div class="eyebrow reveal-up"><span>✦</span> WHAT WE DO</div>
+  <h1 class="reveal-up" style="animation-delay:.08s">One partner.<br><span>Every channel.</span></h1>
+  <p class="reveal-up" style="animation-delay:.16s">Pick what you need now. Build the full system when you're ready. Every service is scoped to your goals — not a package off a price list.</p>
+</section>
+
+<!-- SERVICE IMAGE BANNER -->
+<section class="section-shell reveal-up" style="margin-bottom:0">
+  <div class="services-banner">
+    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=85&auto=format&fit=crop" alt="Marketing team" loading="lazy">
+    <div class="services-banner-overlay">
+      <div class="services-banner-stats">
+        <div><strong>340+</strong><span>Campaigns</span></div>
+        <div><strong>7×</strong><span>Avg ROAS</span></div>
+        <div><strong>96%</strong><span>Retention</span></div>
+        <div><strong>48h</strong><span>To Launch</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES LIST -->
+<section class="section-shell section" id="servicesListFull">
+  <div class="services-full-grid" id="servicesFullGrid"></div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section-shell section process reveal-up">
+  <div class="eyebrow">HOW EVERY SERVICE STARTS</div>
+  <h2>The process behind<br><span>every campaign.</span></h2>
+  <div class="process-grid">
+    <article>
+      <div class="process-icon">🔍</div>
+      <b>01</b>
+      <h3>Discover</h3>
+      <p>Business goals, audience, offer and market. No assumptions, only research.</p>
+    </article>
+    <article>
+      <div class="process-icon">🗺</div>
+      <b>02</b>
+      <h3>Plan</h3>
+      <p>Channel strategy, funnel architecture, creative brief and KPI framework.</p>
+    </article>
+    <article>
+      <div class="process-icon">🚀</div>
+      <b>03</b>
+      <h3>Launch</h3>
+      <p>Campaigns go live with tracking, attribution and clear success benchmarks.</p>
+    </article>
+    <article>
+      <div class="process-icon">📊</div>
+      <b>04</b>
+      <h3>Optimize</h3>
+      <p>Weekly data review. Continuous testing. Scale what works, cut what doesn't.</p>
+    </article>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-shell section cta reveal-up">
+  <div class="eyebrow">NOT SURE WHERE TO START?</div>
+  <h2>Let's figure out what<br><span>you actually need.</span></h2>
+  <p>Book a free 30-minute strategy call. We'll audit your current situation and recommend the right starting point — no sales pressure.</p>
+  <a class="btn btn-glow" href="contact.html">Book Free Strategy Call ↗</a>
+</section>
+
+</main>
+<footer class="footer">
+  <div>
+    <img src="assets/logo.svg" alt="KaiumMarketing">
+    <p>Performance-focused online marketing &amp; advertising.</p>
+  </div>
+  <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div>
+    <a href="mailto:wafikaium@gmail.com">wafikaium@gmail.com</a>
+    <small>© 2026 KaiumMarketing</small>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<style>
+.services-banner { position:relative; border-radius:22px; overflow:hidden; border:1px solid var(--line); }
+.services-banner img { width:100%; aspect-ratio:21/6; object-fit:cover; display:block; filter:brightness(.55); }
+.services-banner-overlay { position:absolute; inset:0; display:flex; align-items:flex-end; background:linear-gradient(to top,rgba(5,5,12,.8) 0%,transparent 60%); }
+.services-banner-stats { display:flex; gap:48px; padding:36px 40px; }
+.services-banner-stats div { display:flex; flex-direction:column; gap:4px; }
+.services-banner-stats strong { font-family:Manrope,sans-serif; font-size:clamp(24px,3vw,38px); font-weight:900; background:linear-gradient(135deg,var(--violet),var(--blue)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.services-banner-stats span { font-size:12px; color:rgba(255,255,255,.6); font-weight:600; letter-spacing:.06em; }
+.services-full-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+@media(max-width:900px) { .services-full-grid { grid-template-columns:repeat(2,1fr); } .services-banner-stats { gap:28px; padding:24px; } }
+@media(max-width:600px) { .services-full-grid { grid-template-columns:1fr; } .services-banner img { aspect-ratio:4/3; } .services-banner-stats { flex-wrap:wrap; gap:18px; } }
+</style>
+</body>
+</html>

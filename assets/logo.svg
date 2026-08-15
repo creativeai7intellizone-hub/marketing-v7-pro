@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#8b5cf6"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
+<rect width="220" height="64" rx="16" fill="#0b0b10"/>
+<path d="M20 44V20h7v18l13-18h9L36 34l15 10h-10L27 35v9z" fill="url(#g)"/>
+<path d="M55 20h8v17h12v7H55z" fill="#fff"/>
+<text x="88" y="40" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Kaium</text>
+<text x="145" y="40" fill="#b9b9c8" font-family="Arial,sans-serif" font-size="20">Marketing</text></svg>

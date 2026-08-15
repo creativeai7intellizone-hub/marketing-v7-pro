@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio — KaiumMarketing</title>
+<meta name="description" content="Real results from real campaigns. Explore KaiumMarketing's portfolio of performance marketing case studies.">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="KaiumMarketing"></a>
+  <nav class="desktop-nav">
+    <a href="index.html#services">Services</a>
+    <a href="portfolio.html">Work</a>
+    <a href="index.html#process">Process</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+  </nav>
+  <div class="header-actions">
+    <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">◐</button>
+    <a class="btn btn-sm" href="contact.html">Get Strategy Call</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#services">Services</a>
+  <a href="portfolio.html">Work</a>
+  <a href="index.html#process">Process</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Insights</a>
+  <a href="contact.html">Contact</a>
+</div>
+<main>
+<section class="section-shell page-hero">
+  <div class="eyebrow reveal-up"><span>✦</span> SELECTED WORK</div>
+  <h1 class="reveal-up" style="animation-delay:.08s">Proof should be <span>real.</span></h1>
+  <p class="reveal-up" style="animation-delay:.16s">Every number here is verified. No inflated claims, no vanity metrics. These are real campaigns with real business outcomes.</p>
+</section>
+
+<!-- Filter bar (UI only) -->
+<section class="section-shell" style="margin-bottom:48px">
+  <div class="filter-bar reveal-up">
+    <button class="filter-btn active" data-filter="all">All Work</button>
+    <button class="filter-btn" data-filter="meta">Meta Ads</button>
+    <button class="filter-btn" data-filter="google">Google Ads</button>
+    <button class="filter-btn" data-filter="lead">Lead Gen</button>
+    <button class="filter-btn" data-filter="social">Social</button>
+  </div>
+</section>
+
+<section class="section-shell" style="padding-bottom:110px">
+  <div class="portfolio-grid" id="portfolioGridFull"></div>
+</section>
+
+<!-- CTA -->
+<section class="section-shell section cta reveal-up">
+  <div class="eyebrow">YOUR RESULTS NEXT?</div>
+  <h2>Let's write your<br><span>case study.</span></h2>
+  <p>Book a free strategy call. We'll look at what you're running and where the real opportunity is.</p>
+  <a class="btn btn-glow" href="contact.html">Get Free Strategy Audit ↗</a>
+</section>
+</main>
+<footer class="footer">
+  <div>
+    <img src="assets/logo.svg" alt="KaiumMarketing">
+    <p>Performance-focused online marketing &amp; advertising.</p>
+  </div>
+  <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div>
+    <a href="mailto:wafikaium@gmail.com">wafikaium@gmail.com</a>
+    <small>© 2026 KaiumMarketing</small>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+<script src="js/portfolio.js"></script>
+<style>
+.filter-bar { display:flex; gap:10px; flex-wrap:wrap; }
+.filter-btn { border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:100px; padding:9px 18px; font:inherit; font-size:13px; font-weight:600; cursor:pointer; transition:all .2s; }
+.filter-btn:hover,.filter-btn.active { background:var(--violet); color:#fff; border-color:var(--violet); }
+.portfolio-grid { grid-template-columns:repeat(2,1fr); }
+@media(max-width:680px) { .portfolio-grid { grid-template-columns:1fr; } }
+</style>
+</body>
+</html>

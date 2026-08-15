@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11111a"/><stop offset="1" stop-color="#09090d"/></linearGradient><linearGradient id="glow" x1="0" x2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#38bdf8"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="28"/></filter></defs>
+<rect width="900" height="620" rx="28" fill="url(#bg)" stroke="#292936"/>
+<circle cx="730" cy="90" r="130" fill="#8b5cf6" opacity=".13" filter="url(#blur)"/>
+<circle cx="190" cy="520" r="120" fill="#38bdf8" opacity=".09" filter="url(#blur)"/>
+<rect x="55" y="55" width="790" height="510" rx="18" fill="#0e0e15" stroke="#2b2b37"/>
+<text x="85" y="94" fill="#fff" font-family="Arial" font-size="18" font-weight="700">CAMPAIGN CONTROL CENTER</text>
+<text x="85" y="118" fill="#77798b" font-family="Arial" font-size="11">SAMPLE UI — REPLACE WITH YOUR CONNECTED DATA</text>
+<g>
+<rect x="85" y="150" width="215" height="100" rx="12" fill="#171722"/><text x="105" y="178" fill="#85879a" font-family="Arial" font-size="11">SPEND</text><text x="105" y="218" fill="#fff" font-family="Arial" font-size="30" font-weight="700">—</text>
+<rect x="320" y="150" width="215" height="100" rx="12" fill="#171722"/><text x="340" y="178" fill="#85879a" font-family="Arial" font-size="11">ROAS</text><text x="340" y="218" fill="url(#glow)" font-family="Arial" font-size="30" font-weight="700">—</text>
+<rect x="555" y="150" width="215" height="100" rx="12" fill="#171722"/><text x="575" y="178" fill="#85879a" font-family="Arial" font-size="11">CONVERSIONS</text><text x="575" y="218" fill="#fff" font-family="Arial" font-size="30" font-weight="700">—</text></g>
+<rect x="85" y="275" width="440" height="245" rx="12" fill="#15151f"/><text x="108" y="304" fill="#fff" font-family="Arial" font-size="13" font-weight="700">Performance trend</text>
+<path d="M110 470 C160 430,170 455,215 410 S275 450,320 380 S390 405,435 345 S480 370,505 330" fill="none" stroke="url(#glow)" stroke-width="5"/>
+<path d="M110 470 C160 430,170 455,215 410 S275 450,320 380 S390 405,435 345 S480 370,505 330 L505 490 L110 490Z" fill="url(#glow)" opacity=".08"/>
+<g stroke="#2c2c38"><path d="M110 355H505M110 400H505M110 445H505"/></g>
+<rect x="550" y="275" width="220" height="245" rx="12" fill="#15151f"/><text x="573" y="304" fill="#fff" font-family="Arial" font-size="13" font-weight="700">Channel mix</text>
+<circle cx="660" cy="390" r="65" fill="none" stroke="#292936" stroke-width="26"/><circle cx="660" cy="390" r="65" fill="none" stroke="url(#glow)" stroke-width="26" stroke-dasharray="180 230" transform="rotate(-90 660 390)"/>
+<text x="632" y="394" fill="#fff" font-family="Arial" font-size="12">LIVE DATA</text><text x="603" y="485" fill="#77798b" font-family="Arial" font-size="10">Connect GA4 / Ads / CRM</text>
+</svg>
